@@ -1,0 +1,79 @@
+/* header */
+header{
+    flex-direction: column;
+    text-align: center;
+}
+
+.logo-entete{
+    display: block;
+}
+
+nav ul{
+    flex-direction: column;
+}
+
+nav ul li{
+    border-bottom: 1px dotted #ddd;
+}
+
+/* sous-header */
+.sous-header-content{
+    max-width: 350px;
+}
+
+.sous-header-content h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+/* Nos offre */
+.title{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.offre{
+    padding: 5rem 1rem;
+}
+
+.offre-content{
+    flex-direction: column;
+}
+
+/* Notre team */
+.team{
+    flex-direction: column-reverse;
+    min-height: 1100px;
+}
+
+/* ce qu'il pense de nous */
+.commentaire{
+    padding: 5rem 1rem;
+}
+
+.c-content{
+    flex-direction: column;
+}
+
+.c-content-elem{
+    flex-direction: column;
+}
+
+.content-reverse{
+    flex-direction: column-reverse;
+}
+
+.c-content-img{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.c-content-img p{
+    margin-top: 0.5rem;
+}
+
+/* contact */
+.contact-form input{
+    width: 350px;
+}
